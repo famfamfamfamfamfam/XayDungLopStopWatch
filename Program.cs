@@ -71,7 +71,7 @@ namespace LOPVADOITUONG
             int[] mang = DanhSachCanSapXep();
             SapXepChon(mang);
             donghodo.Stop();
-            Console.WriteLine($"Chuong trinh vua chay trong {donghodo.GetElapsedTime()} mili giay");
+            Console.WriteLine($"Chuong trinh vua chay trong {donghodo.GetElapsedTime()} mili giay\nBat dau tu {donghodo.GetStartTime()} den {donghodo.GetEndTime()}");
         }
     }
 }
